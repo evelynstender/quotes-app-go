@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Anime quotes!</title>
+  </head>
+  <main>
+    <h1>Anime quotes!</h1>
+    <p>
+      Random quote:
+    </p>
+   {{if .Quote}}
+    <p>"{{.Quote}}" by {{.Character}}</p>
+   {{end}}
+  </main>
+  <footer></footer>
+</html>
